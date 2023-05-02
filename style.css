@@ -1,0 +1,35 @@
+nav{
+    background-color:#cecdf5;
+    /* manipular os elementos de forma dinâmica */
+    display: flex;
+    /* centralizando os itens */
+    align-items: center;
+    /* cria um espaçamento entre os itens */
+    justify-content: space-between;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 45px;
+}
+
+nav li{
+    margin-left: 15px;
+}
+
+nav li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+
+nav .logo a{
+text-decoration: none;
+color: white;
+font-size: 35px;
+}
+
+
